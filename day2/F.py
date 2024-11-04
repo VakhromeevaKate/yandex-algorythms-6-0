@@ -18,4 +18,15 @@ for i in range(0, len(arr) - 2):
             mult = arr[i] * arr[j] * arr[k]
             sum = sum + mult
 
+
+# def sum_of_products(arr):
+#     total = sum(arr)
+#     result = 0
+
+# for i in range(0, len(arr) - 2):
+#     l = 1
+#     r = n
+#     while l < r:
+#         print(arr[l] * arr[r]) * arr[i]
+
 print(sum % 1000000007)
